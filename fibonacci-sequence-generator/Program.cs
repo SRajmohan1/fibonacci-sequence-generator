@@ -76,7 +76,7 @@ namespace fibonacci_sequence_generator
             for (int i = 0; i < sequence.Count; i++) {
                 fibonacciString += ($"{sequence[i]}");
 
-                if (i == (sequence.Count - 1))
+                if (i != (sequence.Count - 1))
                     fibonacciString += ",";
             }
 
